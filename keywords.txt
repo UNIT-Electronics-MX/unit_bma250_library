@@ -1,18 +1,20 @@
 #######################################
-# Syntax Coloring Map for BMA250
+# Syntax Coloring Map for UBMA250
 #######################################
 
 #######################################
 # Datatypes (KEYWORD1)
 #######################################
 
-BMA250	KEYWORD1
+UBMA250	KEYWORD1
 
 #######################################
 # Methods and Functions (KEYWORD2)
 #######################################
 
 begin	KEYWORD2
+beginI2C	KEYWORD2
+beginSPI	KEYWORD2
 read	KEYWORD2
 
 #######################################
@@ -22,3 +24,5 @@ read	KEYWORD2
 X	LITERAL1
 Y	LITERAL1
 Z	LITERAL1
+tempC	LITERAL1
+rawTemp	LITERAL1
